@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.card-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 70%;
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #0f172a;
+}
+
+.para {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #334155;
+}
+
+.button-styling {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+}
+
+.quote {
+  font-size: 12px;
+}
